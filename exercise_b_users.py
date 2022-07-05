@@ -70,9 +70,9 @@ for lottery_number in users["Avril"]["lottery_numbers"]:
 users["Erik"]['lottery_numbers'].append(7)
 users["Erik"]['home_town'] = "Edinburgh"
 users["Erik"]["pets"].append({"name" : "fluffy", "species" : "dog"})
-users ["Doro"] = {"homework_status" : "done"}
+users ["Nicola"] = {"twitter" : 'nicolasturgeon', "lottery_numbers" : [19, 7, 70, 20, 1, 4], "home_town" : "Irvine", "pets" : [{"name" : "William", "species" : "unicorn",}, {"name" : "William", "species" : "Haggis"}]}
 
-print(users["Doro"])
+print(users["Nicola"])
 
 
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
