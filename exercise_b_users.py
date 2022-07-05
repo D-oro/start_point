@@ -54,6 +54,27 @@ users = {
   }
 }
 
+print(users["Jonathan"]['twitter'])
+print(users["Erik"]['home_town'])
+print(users["Erik"]['lottery_numbers'])
+print(users["Avril"]['pets'][0]['species'])
+
+users["Erik"]['lottery_numbers'] = sorted((users["Erik"]['lottery_numbers']))
+
+print(users["Erik"]['lottery_numbers'][0])
+
+for lottery_number in users["Avril"]["lottery_numbers"]:
+  if (lottery_number % 2 == 0):
+    print(lottery_number)
+
+users["Erik"]['lottery_numbers'].append(7)
+users["Erik"]['home_town'] = "Edinburgh"
+users["Erik"]["pets"].append({"name" : "fluffy", "species" : "dog"})
+users ["Doro"] = {"homework_status" : "done"}
+
+print(users["Doro"])
+
+
 # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
 # 2. Get Erik's hometown
 # 3. Get the list of Erik's lottery numbers
